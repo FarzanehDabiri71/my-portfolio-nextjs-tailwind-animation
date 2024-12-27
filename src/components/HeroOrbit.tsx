@@ -1,4 +1,3 @@
-import { style } from "framer-motion/client";
 import React, { PropsWithChildren } from "react";
 function HeroOrbit({
   children,
