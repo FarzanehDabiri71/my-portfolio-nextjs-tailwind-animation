@@ -58,7 +58,7 @@ export const TestimonialsSection = () => {
           //     "linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.9) 90%, transparent)",
           // }}
         >
-          <div className="flex flex-none gap-8 animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
+          <div className="flex flex-none gap-8 pr-8 animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
             {[...new Array(2)].fill(0).map((_, index) => (
               <Fragment key={index}>
                 {testimonials.map((testimonial) => (
